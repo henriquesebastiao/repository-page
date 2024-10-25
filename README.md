@@ -1,13 +1,34 @@
-# Henrique Sebastião
+# Template for Repository pages
 
-[![License](https://img.shields.io/github/license/henriquesebastiao/henriquesebastiao.github.io)](https://github.com/henriquesebastiao/henriquesebastiao.github.io/blob/main/LICENSE)
+A simple template for creating [Chirpy](https://chirpy.cotes.page/) themed repository pages using GitHub Pages.
 
-My personal blog, to share my path and my knowledge.
+You can see a template at this [link](https://henriquesebastiao.com/repository-page/).
 
-## Reference
+## Setup 🔧
 
-This site is made with [Jekyll](https://jekyllrb.com/) using the beautiful [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) theme.
+> [!TIP]
+> If you like it and want to implement this template in your repositories, feel free to use it, but be careful to change the characteristics listed below.
 
-## License
+> [!IMPORTANT]
+> You MUST change all of the features listed below, they contain information and links to about me and my social networks. You will probably want to replace them with your own information, unless you are interested in advertising this mere developer who speaks to you 😅.
 
-This work is published under [MIT](LICENSE) License.
+Most of the changes will be made to the `_config.yml` file, you should change the following settings:
+
+- `title`
+- `tagline`
+- `description`
+- `url`
+- `username` in `github` and `twaitter`
+- `social`
+- `analytics`
+- `avatar`
+- `social_preview_image`
+- `giscus`
+
+You should also edit the entire `_tabs/about.md` file, or even remove it.
+
+## Deploy 🚀
+
+To deploy your page using GitHub Actions, follow these few steps outlined in the Chirpy theme [documentation](https://chirpy.cotes.page/posts/getting-started/#deploy-using-github-actions).
+
+Have fun.
