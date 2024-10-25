@@ -27,6 +27,10 @@ Most of the changes will be made to the `_config.yml` file, you should change th
 
 You should also edit the entire `_tabs/about.md` file, or even remove it.
 
+All the content of your page will be in the `index.md` file, it will be like the README of your repository ✨.
+
+The content is written following the Markdown syntax and with some formatting features used by the theme that you can see [here](https://chirpy.cotes.page/posts/text-and-typography/) in the documentation.
+
 ## Deploy 🚀
 
 To deploy your page using GitHub Actions, follow these few steps outlined in the Chirpy theme [documentation](https://chirpy.cotes.page/posts/getting-started/#deploy-using-github-actions).
